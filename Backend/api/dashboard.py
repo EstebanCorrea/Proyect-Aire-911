@@ -49,3 +49,4 @@ async def update_progress():
         {"$set": {"activities_completed": activities, "progress": progress}}
     )
     return {"activities_completed": activities, "progress": progress}
+#nueva estructura con conexión al Mongodb
